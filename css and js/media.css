@@ -1,0 +1,80 @@
+@media (max-width:1000px){
+	.main{flex-direction: column;text-align: center;}
+	.mainContent{margin-bottom:50px;}
+	img.mobile{margin:0;}
+	.qs,.ans{width: 500px;}
+	.qs:hover{width:550px;}
+}
+
+
+
+@media (max-width: 870px){
+	.email1{padding: 17px 12px;width: 367px;}
+	.headings h1{font-size: 2.5rem;width: 559px;margin:auto;}
+	.headings h2{font-size: 1.4rem;}
+	.headings h3{font-size: 1rem;}
+	.ft-1{font-size: 15px;}
+}
+
+
+@media (max-width: 710px){
+	.hero{min-height: 700px;}
+	.getStart{text-align: center}
+	h6#req {margin-top: 14px;}
+	.email1{padding: 11px 10px;width:95%;}
+	/*button.start{font-size: 17px;padding: 13px 19px;top:1px;}*/
+	img.tv{width: 350px;}
+	video.video1{width: 253px}
+	img.mobile{width: 272px;}
+	img.tv2{width: 415px;}
+	video.video2{width: 252px;margin-top:-53px;}
+	.qs{height:70px;}
+	.qs,.ans{font-size:18px;width: 411px;transition: .3s}
+	.qs:hover{height: 100px;width:411px}
+	.qsHead{font-size: 32px}
+	.ft-1{display: block;}
+	.mainContent h1{font-size: 42px;}
+	.mainContent h2{font-size: 17px;}
+	.qs span {
+    font-size: 40px;
+	}
+
+}
+
+@media (max-width: 560px){
+	.questions{padding:0;}
+	input.email1 {
+    margin-top: 20px;
+	}
+	.qs{height:60px;}
+	.qs,.ans{font-size:15px;width: 360px;transition: .3s}
+	.qs:hover{height: 90px;width:360px}
+	.headings h1{font-size: 2.2rem;width: 400px;margin:auto;}
+	.headings h2{font-size: 1.2rem;}
+	.headings h3{font-size: 0.8rem;}
+	button.signUp.a {
+    font-size: 11px;
+    margin: 6px -26px 0px 0px;
+	}
+	.header .logo {
+    width: 135px;
+    margin-left: -35px;
+	}
+}
+
+@media(max-width:450px){
+	.questions{padding:0px}
+	.qs{height:40px;}
+	.qs,.ans{font-size:12px;width: 100%;transition: .3s;padding: 10px 10px;
+	
+	}
+	.qs:hover{height: 70px;width:100%}
+.qs span {
+    font-size: 40px;
+	}
+}
+@media (max-width: 390px){
+	.headings h1{font-size: 1.3rem;width: 100%;margin:auto;}
+	.headings h2{font-size: 1rem;}
+	.headings h3{font-size: 0.9rem;}
+}
